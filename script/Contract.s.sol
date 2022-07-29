@@ -7,7 +7,7 @@ import "../src/Contract.sol";
 contract MyScript is Script {
     function run() public {
         vm.startBroadcast();
-        Counter counter = new Counter(10);
+        Counter counter = new Counter(9);
         vm.stopBroadcast();
     }
 }

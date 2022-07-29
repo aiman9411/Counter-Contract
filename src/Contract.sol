@@ -12,10 +12,6 @@ contract Counter {
         count += 1;
     }
 
-    function decrement() public {
-        count -= 1;
-    }
-
     function viewCount() public view returns (uint8) {
         return count;
     }
